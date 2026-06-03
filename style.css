@@ -1,0 +1,44 @@
+body{
+    font-family:Arial;
+    margin:0;
+}
+
+.hero{
+    text-align:center;
+    padding:60px;
+}
+
+.announcement{
+    background:#ffeb3b;
+    padding:10px;
+}
+
+.pricing-grid,
+.product-grid{
+    display:flex;
+    gap:20px;
+}
+
+.card,
+.product-card{
+    border:1px solid #ccc;
+    padding:20px;
+    flex:1;
+}
+
+.featured{
+    border:3px solid green;
+}
+
+section{
+    padding:40px;
+}
+
+.long-content{
+    min-height:3000px;
+}
+
+.dark{
+    background:#222;
+    color:white;
+}
