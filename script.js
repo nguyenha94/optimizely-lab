@@ -17,13 +17,14 @@ function track(eventName) {
 window.optimizely = window.optimizely || [];
 
 window.optimizely.push({
-    type: "user",
-    attributes: {
-        customerType: "vip",
-        region: "APAC",
-        loggedIn: true
-    }
+  type: "user",
+  attributes: {
+    customerType: "vip",
+    region: "APAC"
+  }
 });
+
+console.log("Custom attributes sent");
 
 document
 .getElementById("start-trial-btn")
