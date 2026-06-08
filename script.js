@@ -14,6 +14,17 @@ function track(eventName) {
     console.log(eventName);
 }
 
+window.optimizely = window.optimizely || [];
+
+window.optimizely.push({
+    type: "user",
+    attributes: {
+        customerType: "vip",
+        region: "APAC",
+        loggedIn: true
+    }
+});
+
 document
 .getElementById("start-trial-btn")
 .addEventListener("click", () => {
