@@ -20,7 +20,8 @@ window.optimizely.push({
   type: "user",
   attributes: {
     customerType: "vip",
-    region: "APAC"
+    region: "APAC",
+    loggedIn: true
   }
 });
 
