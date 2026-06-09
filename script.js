@@ -35,6 +35,23 @@ document
 
 });
 
+setTimeout(() => {
+
+    const banner = document.createElement("div");
+
+    banner.id = "lazy-banner";
+
+    banner.style.padding = "20px";
+    banner.style.margin = "20px";
+    banner.style.background = "#ffeeba";
+
+    banner.innerHTML =
+        "This banner loaded after 5 seconds";
+
+    document.body.appendChild(banner);
+
+}, 5000);
+
 document
 .getElementById("book-demo-btn")
 .addEventListener("click", () => {
